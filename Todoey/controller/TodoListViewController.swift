@@ -63,7 +63,7 @@ class TodoListViewController: UITableViewController  {
         let alert = UIAlertController(title: "Add New Todoey Item", message: "", preferredStyle: .alert)
         /* tạo bảng thông báo */
         
-        let action = UIAlertAction(title: "Add Item", style: .default) { (action) in
+        let action = UIAlertAction(title: "Add Item", style: .default) {(action) in
             //what will happen once the user clicks the Add Item button on our UIAlert
             
             self.itemArray.append(textField.text!)
